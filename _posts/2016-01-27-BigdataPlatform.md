@@ -13,7 +13,7 @@ tags:
 
 - 系统环境
 
-    - 主机：IDC 8台主机
+    - 主机：主机列表...
 
     - 操作系统：**centos 6.5**
 
@@ -196,40 +196,41 @@ tags:
 
     - 按提示操作加入节点，并安装软件包。
 
-
-        |        |
-        |--------|
-        | ![选择CM版本](http://abcxy.qiniudn.com/cloudera_step1-selectEdition.jpg)          |
-        | ![组件展示](http://abcxy.qiniudn.com/cloudera_step2-showStack.jpg)                |
-        | ![配置存储库](http://abcxy.qiniudn.com/cloudera_step3-selectRepo.jpg)             |
-        | ![JDK安装选项](http://abcxy.qiniudn.com/cloudera_step4-installJDK.jpg)            |
-        | ![启用点用户模式](http://abcxy.qiniudn.com/cloudera_step5-singleUser.jpg)         |
-        | ![配置ssh登陆信息](http://abcxy.qiniudn.com/cloudera_step6-configSSH.jpg)         |
-        | ![执行安装脚本](http://abcxy.qiniudn.com/cloudera_step7-clusterInstallation.jpg)  |
-        | ![下载并分配软件包](http://abcxy.qiniudn.com/cloudera_step8-installParcel.jpg)    |
-        | ![主机巡检](http://abcxy.qiniudn.com/cloudera_step9-hostsCheck.jpg)               |
-        | ![主机检测结果](http://abcxy.qiniudn.com/cloudera_step10-showCheck.jpg)           |
-        | ![角色分配](http://abcxy.qiniudn.com/cloudera_step11-clusterConfig.jpg)           |
-        | ![数据库设置](http://abcxy.qiniudn.com/cloudera_step12-dbSetting.jpg)             |
-        | ![审核配置](http://abcxy.qiniudn.com/cloudera_step13-Audit.jpg)                   |
-        | ![启动并初始化集群](http://abcxy.qiniudn.com/cloudera_step14-startCluster.jpg)    |
-        |
-        |======
-
-
     - 安装并初始化zookeeper
 
     - 配置Isilon环境
 
-        - **需在Isilon上新建zone，并创建相应的用户和用户组**
+        **需在Isilon上新建zone，并创建相应的用户和用户组**
 
-        - 在Isilon URI中填写创建的域名配置信息，如：*hdfs://hadoop.example.com:8020*
+        在Isilon URI中填写创建的域名配置信息，如：*hdfs://hadoop.example.com:8020*
 
     - 添加yarn服务
 
     - 添加spark服务
 
-    - 添加kafka服务 * 未在基础parcels包中，必要时，创建离线安装库 *
+    - 添加kafka服务 
+
+        *未在基础parcels包中，必要时，创建离线安装库*
+
+
+|        |
+|--------|
+| ![选择CM版本](http://abcxy.qiniudn.com/cloudera_step1-selectEdition.jpg)          |
+| ![组件展示](http://abcxy.qiniudn.com/cloudera_step2-showStack.jpg)                |
+| ![配置存储库](http://abcxy.qiniudn.com/cloudera_step3-selectRepo.jpg)             |
+| ![JDK安装选项](http://abcxy.qiniudn.com/cloudera_step4-installJDK.jpg)            |
+| ![启用点用户模式](http://abcxy.qiniudn.com/cloudera_step5-singleUser.jpg)         |
+| ![配置ssh登陆信息](http://abcxy.qiniudn.com/cloudera_step6-configSSH.jpg)         |
+| ![执行安装脚本](http://abcxy.qiniudn.com/cloudera_step7-clusterInstallation.jpg)  |
+| ![下载并分配软件包](http://abcxy.qiniudn.com/cloudera_step8-installParcel.jpg)    |
+| ![主机巡检](http://abcxy.qiniudn.com/cloudera_step9-hostsCheck.jpg)               |
+| ![主机检测结果](http://abcxy.qiniudn.com/cloudera_step10-showCheck.jpg)           |
+| ![角色分配](http://abcxy.qiniudn.com/cloudera_step11-clusterConfig.jpg)           |
+| ![数据库设置](http://abcxy.qiniudn.com/cloudera_step12-dbSetting.jpg)             |
+| ![审核配置](http://abcxy.qiniudn.com/cloudera_step13-Audit.jpg)                   |
+| ![启动并初始化集群](http://abcxy.qiniudn.com/cloudera_step14-startCluster.jpg)    |
+|
+|======
 
 
 - - -
