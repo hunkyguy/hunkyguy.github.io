@@ -179,6 +179,10 @@ header .intro-text .skills {
     height: 340px;
 }
 
+.archive {
+    padding-top: 200px;
+}
+
 section {
     padding: 100px 0;
 }
