@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section class="archive">
+    <div class="container">
+        <ul>
+        {% for post in site.posts %}
+            <div class="row">
+                <div class="row">
+                    <div class="col-xs-12"> 
+                        <h4 class="title">
+                            <li>
+                                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            </li>
+                        </h4>
+                    </div>
+                    <!--
+                    <div class="col-xs-2"> 
+                        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+                    </div>
+                    -->
+                </div>
+                <div class="row" id="excerpt">
+                    <div class="col-xs-12"> 
+                        <p>
+                            {{ post.excerpt }}
+                            <a class="btn zoombtn" href="{{ site.url }}{{ post.url }}">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
