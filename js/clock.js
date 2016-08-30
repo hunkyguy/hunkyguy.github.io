@@ -72,10 +72,10 @@ function renderTime() {
     c.arc(halfSize, halfSize, 0.56 * halfSize, degToRad(270), degToRad((newSeconds * 6) - 90));
     c.stroke();
 
-    milliseconds
-     c.beginPath();
-     c.arc(halfSize, halfSize, 0.44 * halfSize, degToRad(270), degToRad((milliseconds * 0.36) - 90));
-     c.stroke();
+    //milliseconds
+    // c.beginPath();
+    // c.arc(halfSize, halfSize, 0.44 * halfSize, degToRad(270), degToRad((milliseconds * 0.36) - 90));
+    // c.stroke();
 
     //date & time
     c.font = timeFont;
